@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Terra</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .drop {
+    display: inline-block;
+    height: 100px !important;
+    width: 150px !important;
+    margin: 5px!important;
+    margin-top: 2% !important;
+    background: #23dedb00 !important;
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">TERRA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="juego.html">Juega<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="codigo.html">Lee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="conocenos.html">Conocenos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <div class="d-flex ml-auto col-sm-12">
+        <a href="juego.html" class="btn btn-success col-sm-2" id="btn1">Intenta de Nuevo</a>
+        <label class="text-right mt-2 col-sm-9" id="lab">Puntaje:</label>
+        <input type="text" class="form-control text-center" id="lab1" readonly="" value="0" min="0">
+    </div>
+    <hr>
+    <center>
+        <div class="empty em1" data-drop="1">
+            <img src="./img/sociedad.jpg"/>
+        </div>
+        <div class="empty em2" data-drop="2">
+            <img src="./img/cliente.jpg"/>
+        </div>
+        <div class="empty em3" data-drop="3">
+            <img src="./img/producto.jpg"/>
+        </div>
+        <div class="empty em4" data-drop="4">
+            <img src="./img/juicio.jpg"/>
+        </div>
+    </center>
+    <center>
+        <div class="empty em5" data-drop="5">
+            <img src="./img/admin.jpg"/>
+        </div>
+        <div class="empty em6" data-drop="6">
+            <img src="./img/sociedad.jpg"/>
+        </div>
+        <div class="empty em7" data-drop="7">
+            <img src="./img/colegas.jpg"/>
+        </div>
+        <div class="empty em8" data-drop="8">
+            <img src="./img/personal.jpg"/>
+        </div>
+    </center>
+
+<br>
+<br>
+<br>
+<br>
+    
+
+    <center id="pon">
+     
+    </center>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="juego.js"></script>
+
+
+</body>
+
+</html>
